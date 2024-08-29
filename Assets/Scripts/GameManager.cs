@@ -57,10 +57,10 @@ public class GameManager : MonoBehaviour
             return;
         }
 
-        var manaCount = _saveSystem.SaveData.ManaCount + (DateTime.Now - _saveSystem.SaveData.LastManaUpdate.value).Seconds * _gameSettingsData.ManaPerSeconds;
+        var manaCount = _saveSystem.SaveData.ManaCount + Mathf.FloorToInt((float)(DateTime.Now - _saveSystem.SaveData.LastManaUpdate.value).TotalSeconds * _gameSettingsData.ManaPerSeconds);
 
         gameWindowSetup.GoldCount = _saveSystem.SaveData.GoldCount;
-        gameWindowSetup.ManaCount = Mathf.Min(_gameSettingsData.MaxManaCount, Mathf.FloorToInt(manaCount));
+        gameWindowSetup.ManaCount = Mathf.Min(_gameSettingsData.MaxManaCount, manaCount);
         gameWindowSetup.SlotsDictionary = _saveSystem.SaveData.SlotItems;
 
         _gameWindow.Init(gameWindowSetup);
@@ -150,7 +150,7 @@ public class GameManager : MonoBehaviour
         if (_saveSystem == null)
             return;
         
-        var manaCount = _saveSystem.SaveData.ManaCount + (DateTime.Now - _saveSystem.SaveData.LastManaUpdate.value).Seconds * _gameSettingsData.ManaPerSeconds;
+        var manaCount = _saveSystem.SaveData.ManaCount + (float)(DateTime.Now - _saveSystem.SaveData.LastManaUpdate.value).TotalSeconds * _gameSettingsData.ManaPerSeconds;
         _saveSystem.SaveData.ManaCount = Mathf.Min(_gameSettingsData.MaxManaCount, Mathf.FloorToInt(manaCount));
             
         var gameWindowSetup = new GameWindowSetup
