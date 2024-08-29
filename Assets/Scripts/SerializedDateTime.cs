@@ -5,8 +5,7 @@ using JetBrains.Annotations;
 using UnityEngine;
 
 [Serializable]
-public class SerializedDateTime : ISerializationCallbackReceiver, ISerializable, IComparable,
-    IEquatable<SerializedDateTime>, IComparable<SerializedDateTime>
+public class SerializedDateTime : ISerializationCallbackReceiver, ISerializable, IComparable, IEquatable<SerializedDateTime>, IComparable<SerializedDateTime>
 {
     public static readonly string DateFormat = "yyyy-MM-dd HH:mm:ss.fffffff";
 
