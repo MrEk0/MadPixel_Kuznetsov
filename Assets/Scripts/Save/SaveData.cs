@@ -13,8 +13,8 @@ namespace Save
         
         [SerializeField]
         SerializedDictionary<Slots, WindowSlotItemData> _slotItems = new();
-        
-        public bool IsFirstEntrance;
+
+        public bool IsFirstEntrance = true;
         public int GoldCount;
         public int ManaCount;
 

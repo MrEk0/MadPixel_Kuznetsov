@@ -53,15 +53,15 @@ public class GameManager : MonoBehaviour
             gameWindowSetup.GoldCount = 0;
             gameWindowSetup.ManaCount = _saveSystem.SaveData.ManaCount;
             gameWindowSetup.SlotsDictionary = new Dictionary<Slots, WindowSlotItemData>();
-
-            return;
         }
+        else
+        {
+            var manaCount = _saveSystem.SaveData.ManaCount + Mathf.FloorToInt((float)(DateTime.Now - _saveSystem.SaveData.LastManaUpdate.value).TotalSeconds * _gameSettingsData.ManaPerSeconds);
 
-        var manaCount = _saveSystem.SaveData.ManaCount + Mathf.FloorToInt((float)(DateTime.Now - _saveSystem.SaveData.LastManaUpdate.value).TotalSeconds * _gameSettingsData.ManaPerSeconds);
-
-        gameWindowSetup.GoldCount = _saveSystem.SaveData.GoldCount;
-        gameWindowSetup.ManaCount = Mathf.Min(_gameSettingsData.MaxManaCount, manaCount);
-        gameWindowSetup.SlotsDictionary = _saveSystem.SaveData.SlotItems;
+            gameWindowSetup.GoldCount = _saveSystem.SaveData.GoldCount;
+            gameWindowSetup.ManaCount = Mathf.Min(_gameSettingsData.MaxManaCount, manaCount);
+            gameWindowSetup.SlotsDictionary = _saveSystem.SaveData.SlotItems;
+        }
 
         _gameWindow.Init(gameWindowSetup);
     }
