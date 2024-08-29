@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f6f6f4319f51664b8d8bd1e57f78b87, type: 3}
+  m_Name: SlotItemSettingsData
+  m_EditorClassIdentifier: 
+  _slotItemSettings:
+  - _slot: 0
+    _level: 1
+    _sellGold: 100
+    _itemSprite: {fileID: 21300000, guid: 788d49dfbed7e634da549a5c19d557b8, type: 3}
+  - _slot: 0
+    _level: 2
+    _sellGold: 200
+    _itemSprite: {fileID: 21300000, guid: f9dde0a2d28de934a8873bc612fac7ac, type: 3}
+  - _slot: 0
+    _level: 3
+    _sellGold: 300
+    _itemSprite: {fileID: 21300000, guid: 886fbd6abab525940af42e75b58025b1, type: 3}
+  - _slot: 0
+    _level: 4
+    _sellGold: 400
+    _itemSprite: {fileID: 21300000, guid: c660b70e9448b9940abd6ec96a6dae79, type: 3}
+  - _slot: 0
+    _level: 5
+    _sellGold: 500
+    _itemSprite: {fileID: 21300000, guid: 31d9afca87b30f249b9413fcc09ca676, type: 3}
+  - _slot: 1
+    _level: 1
+    _sellGold: 100
+    _itemSprite: {fileID: 21300000, guid: 2a2c4b4147874414e8c01c701a6df1d5, type: 3}
+  - _slot: 1
+    _level: 2
+    _sellGold: 200
+    _itemSprite: {fileID: 21300000, guid: 135ca8b4f5586c24ca25fca4cf51babb, type: 3}
+  - _slot: 1
+    _level: 3
+    _sellGold: 300
+    _itemSprite: {fileID: 21300000, guid: 365c7dc3d5879444db78a0c3d012a30e, type: 3}
+  - _slot: 1
+    _level: 4
+    _sellGold: 400
+    _itemSprite: {fileID: 21300000, guid: c8fa284ab8b0685498fb96c9d838775d, type: 3}
+  - _slot: 1
+    _level: 5
+    _sellGold: 500
+    _itemSprite: {fileID: 21300000, guid: 263bbb2834cb43a40bfa5bbfe87d0e87, type: 3}
+  - _slot: 2
+    _level: 1
+    _sellGold: 100
+    _itemSprite: {fileID: 21300000, guid: e2cb44812442ae64a9adebe1cb5e16f5, type: 3}
+  - _slot: 2
+    _level: 2
+    _sellGold: 200
+    _itemSprite: {fileID: 21300000, guid: 8f8d7c8b74a984d4590332026c5239c6, type: 3}
+  - _slot: 2
+    _level: 3
+    _sellGold: 300
+    _itemSprite: {fileID: 21300000, guid: a3d4794deaf66a74d9a054489f09eb46, type: 3}
+  - _slot: 2
+    _level: 4
+    _sellGold: 400
+    _itemSprite: {fileID: 21300000, guid: 202c4cfac75309449a3b474f0b7dd7d3, type: 3}
+  - _slot: 2
+    _level: 5
+    _sellGold: 500
+    _itemSprite: {fileID: 21300000, guid: fbf5f14a2627ee3438fdfc39c6cb42dc, type: 3}
+  - _slot: 3
+    _level: 1
+    _sellGold: 100
+    _itemSprite: {fileID: 21300000, guid: e2cb44812442ae64a9adebe1cb5e16f5, type: 3}
+  - _slot: 3
+    _level: 2
+    _sellGold: 200
+    _itemSprite: {fileID: 21300000, guid: 8f8d7c8b74a984d4590332026c5239c6, type: 3}
+  - _slot: 3
+    _level: 3
+    _sellGold: 300
+    _itemSprite: {fileID: 21300000, guid: a3d4794deaf66a74d9a054489f09eb46, type: 3}
+  - _slot: 3
+    _level: 4
+    _sellGold: 400
+    _itemSprite: {fileID: 21300000, guid: 202c4cfac75309449a3b474f0b7dd7d3, type: 3}
+  - _slot: 3
+    _level: 5
+    _sellGold: 500
+    _itemSprite: {fileID: 21300000, guid: fbf5f14a2627ee3438fdfc39c6cb42dc, type: 3}
+  - _slot: 4
+    _level: 1
+    _sellGold: 100
+    _itemSprite: {fileID: 21300000, guid: 4b1a3c6980b09be49a5c6c0416905b39, type: 3}
+  - _slot: 4
+    _level: 2
+    _sellGold: 200
+    _itemSprite: {fileID: 21300000, guid: ec0bf2e7099f4a24d8a0f9eeaef15e51, type: 3}
+  - _slot: 4
+    _level: 3
+    _sellGold: 300
+    _itemSprite: {fileID: 21300000, guid: a521c1a2db23f7a40ae86b7837034551, type: 3}
+  - _slot: 4
+    _level: 4
+    _sellGold: 400
+    _itemSprite: {fileID: 21300000, guid: a039cc64f2cb76d4fa997edf3af828ea, type: 3}
+  - _slot: 4
+    _level: 5
+    _sellGold: 500
+    _itemSprite: {fileID: 21300000, guid: 9bf5609b049b1be40b0ae4fe5bc027f7, type: 3}
+  - _slot: 5
+    _level: 1
+    _sellGold: 100
+    _itemSprite: {fileID: 21300000, guid: a1ea2c51f57daac4fa07f8a8680ac72d, type: 3}
+  - _slot: 5
+    _level: 2
+    _sellGold: 200
+    _itemSprite: {fileID: 21300000, guid: 2dafc1f6f6907654fa9b9757053f1aa4, type: 3}
+  - _slot: 5
+    _level: 3
+    _sellGold: 300
+    _itemSprite: {fileID: 21300000, guid: cb7239986a07f794aa6e05cad3bcf066, type: 3}
+  - _slot: 5
+    _level: 4
+    _sellGold: 400
+    _itemSprite: {fileID: 21300000, guid: a7097d9b9220e264dbd0b203d7300367, type: 3}
+  - _slot: 5
+    _level: 5
+    _sellGold: 500
+    _itemSprite: {fileID: 21300000, guid: 3a9ec2ce9bc503b4d926cfddff21d939, type: 3}
